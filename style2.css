@@ -1,15 +1,18 @@
+html{
+    font-size: 10px;
+}
 body{
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
     font-family: 'Roboto', sans-serif;
-
+    font-size: 1.5rem;
 }
 .img{
-    width: 20px;
-    margin-top: 5px;
-    margin-left: 3px;
+    width: 2rem;
+    margin-top:0.6rem;
+    margin-left: 0.3rem;
 }
 .colors{
-    margin-right:1px;
+    margin-right:0.1rem;
     display: inline-block;
     width:19%;
     height:30px;
@@ -31,22 +34,25 @@ body{
     text-align:left ;
 }
 .photo{
-    width: 800px;
+    width:100%;
     margin-top: 10px;
 }
 .box{
     background-color: #f2f2f2;
-    height: 200px;
+    height: 20%;
     margin-top: 30px;
     border-radius: 2px;
 }
 .avatar{
     float: left;
+    width: 30%;
 }
+
+
 .text2{
     float: right;
-    margin-right: 20px;
-    margin-top: 20px;
+    display: block;
+    width: 70%;
 }
 .footer{
     clear: both;
@@ -65,13 +71,13 @@ body{
 
 .avatar img{
     border-radius: 100%;
-    width: 150px;
-    margin-top: 30px;
-    margin-left: 30px;
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 .main-container {
-    width: 800px;
+    width: 60%;
     margin: auto;
     text-align: center;
 
