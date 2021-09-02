@@ -1,13 +1,18 @@
+html{
+    font-size: 10px;
+}
 body{
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
 }
+
 #lable{
     background: deeppink;
     color: white;
-    width: 50px;
-    height: 25px;
-    border-radius:5px ;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius:0.5rem ;
     margin-left: 94%;
 }
 .text{
@@ -18,18 +23,19 @@ body{
 }
 #lable p{
     text-align: center;
-    padding: 4px;
+    padding: 0.4rem;
 }
 
 .avatar{
-    width: 90px;
+    width: 9%;
     border-radius: 100%;
     margin-top: -50px;
-    border: 5px solid white;
+    border: 0.5rem solid white;
 }
 .photo{
-    width: 800px;
-    margin-top: 10px;
+    width:100%;
+    height: auto;
+    margin-top: 1rem;
 }
 
 .title h4,h5 {
@@ -43,17 +49,19 @@ body{
     border-radius: 2px;
 }
 #box{
-    width: 750px;
-    height: 30px;
+    width: 91%;
+    height: 2rem;
     border: 1px solid black;
     float: right;
-    margin-top: 5px;
+    margin-top: 2px;
+    padding-top:3px ;
+    padding-left: 10px;
 }
 h1{
     font-size: 50px;
 }
 .main-container {
-    width: 800px;
+    width: 60%;
     margin: auto;
     text-align: center;
 }
